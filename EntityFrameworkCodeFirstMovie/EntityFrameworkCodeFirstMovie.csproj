@@ -60,24 +60,37 @@
     <Compile Include="DAL\Context\MovieContext.cs" />
     <Compile Include="DAL\Entities\Category.cs" />
     <Compile Include="DAL\Entities\Movie.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="CategoryForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="CategoryForm.Designer.cs">
+      <DependentUpon>CategoryForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\202411252115003_Mig1.cs" />
     <Compile Include="Migrations\202411252115003_Mig1.Designer.cs">
       <DependentUpon>202411252115003_Mig1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202412292353244_Mig2.cs" />
+    <Compile Include="Migrations\202412292353244_Mig2.Designer.cs">
+      <DependentUpon>202412292353244_Mig2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="MovieForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovieForm.Designer.cs">
+      <DependentUpon>MovieForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="CategoryForm.resx">
+      <DependentUpon>CategoryForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202411252115003_Mig1.resx">
       <DependentUpon>202411252115003_Mig1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202412292353244_Mig2.resx">
+      <DependentUpon>202412292353244_Mig2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

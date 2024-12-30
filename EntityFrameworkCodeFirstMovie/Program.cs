@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EntityFrameworkCodeFirstMovie.DAL.Context;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,8 @@ namespace EntityFrameworkCodeFirstMovie
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            var context = new MovieContext();
+            Application.Run(new CategoryForm(context));
         }
     }
 }
