@@ -20,7 +20,6 @@ namespace EntityFrameworkCodeFirstMovie
             _context = context;
             InitializeComponent();
         }
-
         public CategoryForm()
         {
             InitializeComponent();

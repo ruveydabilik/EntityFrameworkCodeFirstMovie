@@ -92,6 +92,9 @@
     <EmbeddedResource Include="Migrations\202412292353244_Mig2.resx">
       <DependentUpon>202412292353244_Mig2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MovieForm.resx">
+      <DependentUpon>MovieForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
