@@ -99,6 +99,7 @@ namespace EntityFrameworkCodeFirstMovie
                             MovieId = movie.MovieId,
                             MovieTitle = movie.MovieTitle,
                             Description = movie.Description,
+                            CreatedDate = movie.CreatedDate,
                             Duration = movie.Duration,
                             CategoryName = category.CategoryName,
                         }).ToList();

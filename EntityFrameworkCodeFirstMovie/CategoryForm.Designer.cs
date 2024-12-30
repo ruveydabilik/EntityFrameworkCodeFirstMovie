@@ -57,14 +57,14 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(-1, -1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(500, 452);
+            this.panel1.Size = new System.Drawing.Size(547, 508);
             this.panel1.TabIndex = 0;
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(368, 67);
+            this.btnSearch.Location = new System.Drawing.Point(402, 70);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(75, 23);
+            this.btnSearch.Size = new System.Drawing.Size(95, 23);
             this.btnSearch.TabIndex = 9;
             this.btnSearch.Text = "Ara";
             this.btnSearch.UseVisualStyleBackColor = true;
@@ -72,9 +72,9 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(268, 67);
+            this.btnAdd.Location = new System.Drawing.Point(302, 70);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.Size = new System.Drawing.Size(94, 23);
             this.btnAdd.TabIndex = 8;
             this.btnAdd.Text = "Ekle";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -82,9 +82,9 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(268, 108);
+            this.btnDelete.Location = new System.Drawing.Point(350, 110);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.Size = new System.Drawing.Size(94, 23);
             this.btnDelete.TabIndex = 7;
             this.btnDelete.Text = "Sil";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -92,9 +92,9 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(368, 29);
+            this.btnUpdate.Location = new System.Drawing.Point(403, 32);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdate.Size = new System.Drawing.Size(94, 23);
             this.btnUpdate.TabIndex = 6;
             this.btnUpdate.Text = "Güncelle";
             this.btnUpdate.UseVisualStyleBackColor = true;
@@ -123,14 +123,14 @@
             this.dataGridView.Location = new System.Drawing.Point(25, 152);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowHeadersWidth = 51;
-            this.dataGridView.Size = new System.Drawing.Size(438, 287);
+            this.dataGridView.Size = new System.Drawing.Size(497, 337);
             this.dataGridView.TabIndex = 3;
             // 
             // btnList
             // 
-            this.btnList.Location = new System.Drawing.Point(268, 29);
+            this.btnList.Location = new System.Drawing.Point(302, 32);
             this.btnList.Name = "btnList";
-            this.btnList.Size = new System.Drawing.Size(75, 23);
+            this.btnList.Size = new System.Drawing.Size(94, 23);
             this.btnList.TabIndex = 2;
             this.btnList.Text = "Listele";
             this.btnList.UseVisualStyleBackColor = true;
@@ -152,13 +152,13 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Kategori Id:";
             // 
-            // Form1
+            // CategoryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(499, 450);
+            this.ClientSize = new System.Drawing.Size(546, 509);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.Name = "CategoryForm";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);

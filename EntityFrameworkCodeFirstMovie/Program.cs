@@ -18,7 +18,7 @@ namespace EntityFrameworkCodeFirstMovie
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             var context = new MovieContext();
-            Application.Run(new MovieForm(context));
+            Application.Run(new CategoryForm(context));
         }
     }
 }
